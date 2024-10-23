@@ -1,0 +1,47 @@
+.contact-form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background: #F3F3FA;
+    width: 352px;
+    height: 949px;
+    flex-shrink: 0;
+}
+
+.contact-form-title {
+    color: #65b9ff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Merriweather';
+    font-size: 26.563px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.329px;
+    /* 133% */
+}
+
+.message-textearea {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    min-height: 240px;
+}
+
+.contact-form-label {
+    margin-top: 10px;
+    color: #65b9ff;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 158.824% */
+}
+
+.contact-form-input {
+    padding-left: 10px;
+    height: 56px;
+    background: #FFF;
+    border: 1px solid #DDD;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.10) inset;
+}

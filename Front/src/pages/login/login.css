@@ -1,0 +1,52 @@
+.login {
+    width: 100vw;
+    height: 80vh;
+    background: #1C3988;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-title {
+    text-align: center;
+    color: #091638;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* D / Dark / H5 */
+    font-family: 'Merriweather';
+    font-size: 26.563px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.329px;
+}
+
+.login-form {
+    padding: 25px;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form-label {
+    color: #091638;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px;
+    margin-top: 15px;
+}
+.auth-router{
+    margin-top: 10px;
+    text-align: center;
+}
+.close-icon{
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+.error{
+    text-align: center;
+    color:  red;
+    margin: 10px 0;
+}

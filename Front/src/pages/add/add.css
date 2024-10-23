@@ -1,0 +1,27 @@
+.add-form {
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.add-title {
+    text-align: center;
+    color: #091638;
+    /* D / H6 */
+    font-family: 'Merriweather';
+    font-size: 21.248px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.263px;
+    /* 133.013% */
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+}
+.add-form-col{
+    display: flex;
+    flex-direction: column;
+}

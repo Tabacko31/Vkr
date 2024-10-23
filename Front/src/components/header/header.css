@@ -1,0 +1,27 @@
+.header{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.header-center{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-items{
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header-item{
+    margin-right: 25px;
+    font-size: 18px;
+}
+
